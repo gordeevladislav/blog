@@ -1,25 +1,34 @@
-# blog
+# Blog Vue.js
 
-## Project setup
+<img width="950" alt="Чат" src="vue-blog.gif">
+
+Простое приложение для публикации постов на Vue.js.
+
+**Стек**: Vue.js, Vuex, CSS (flex), HTML5.
+
+### Функционал:
+- Можно создать пост, указав заголовок, аннотацию и текст.
+- К посту можно добавлять комментарии, указав имя автора и текст.
+- Комментарии и посты можно удалять.
+- Посты можно редактировать.
+- Данные сохраняются в local storage браузера.
+
+### Что планируется реализовать:
+- Возможность добавлять реплаи (комментарии в ответ на комментарии).
+- Возможность добавлять в посты изображения и видео.
+- Возможность переключать тему приложения.
+
+### Запуск проекта:
+
+Установить зависимости:
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+Запустить в режиме разработки:
 ```
-npm run serve
+npm serve
 ```
-
-### Compiles and minifies for production
+Подготовить на продакшн:
 ```
-npm run build
+npm build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# blog
